@@ -1,5 +1,7 @@
 #include "Bala.h"
 
+///Checking out some test on GitHub ... 
+
 Bala::Bala(Image &im,float x, float y) : velocidad(15), alterador(2), ruidoDeDisparo(true), impactado(false) {
 	sp.SetImage(im);
 	sp.SetPosition(x+160,y+32);
